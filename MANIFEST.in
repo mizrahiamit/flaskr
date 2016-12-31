@@ -1,0 +1,7 @@
+
+#-------------------------------------------------------------------
+# Step 3
+# special files that should be included in your package
+graft flaskr/templates
+graft flaskr/static
+include flaskr/schema.sql
